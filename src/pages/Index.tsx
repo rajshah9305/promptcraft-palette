@@ -1,16 +1,14 @@
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
 import Sidebar from "@/components/Sidebar";
 import MainContent from "@/components/MainContent";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-gradient-to-br from-background via-muted/30 to-accent/5">
       <Header />
-      <Hero />
       
-      {/* Main Layout */}
-      <div className="container mx-auto px-6 py-12">
+      {/* Main Layout with enhanced spacing and visual appeal */}
+      <div className="container mx-auto px-6 pt-24 pb-8">
         <div className="flex gap-8">
           <MainContent />
           <Sidebar />

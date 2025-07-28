@@ -40,28 +40,28 @@ const Header = () => {
           <nav className="hidden md:flex items-center gap-8">
             <a 
               href="#browse" 
-              className="text-foreground/80 hover:text-foreground transition-colors flex items-center gap-2"
+              className="text-foreground/80 hover:text-foreground transition-all duration-300 flex items-center gap-2 link-underline py-1"
             >
               <Search className="w-4 h-4" />
               Browse
             </a>
             <a 
               href="#categories" 
-              className="text-foreground/80 hover:text-foreground transition-colors flex items-center gap-2"
+              className="text-foreground/80 hover:text-foreground transition-all duration-300 flex items-center gap-2 link-underline py-1"
             >
               <BookOpen className="w-4 h-4" />
               Categories
             </a>
             <a 
               href="#favorites" 
-              className="text-foreground/80 hover:text-foreground transition-colors flex items-center gap-2"
+              className="text-foreground/80 hover:text-foreground transition-all duration-300 flex items-center gap-2 link-underline py-1"
             >
               <Star className="w-4 h-4" />
               Favorites
             </a>
             <a 
               href="#about" 
-              className="text-foreground/80 hover:text-foreground transition-colors"
+              className="text-foreground/80 hover:text-foreground transition-all duration-300 link-underline py-1"
             >
               About
             </a>
